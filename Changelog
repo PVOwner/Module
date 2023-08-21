@@ -24,15 +24,15 @@
 				cornerStyle.CornerRadius = UDim.new(0, 10)
 				cornerStyle.Parent = frame
 	
-				local hardwareLabel = Instance.new("TextLabel")
-				hardwareLabel.Text = "PV+ Changelog"
-				hardwareLabel.Size = UDim2.new(1, 0, 0, 30)
-				hardwareLabel.Position = UDim2.new(0, 0, 0, 0)
-				hardwareLabel.BackgroundTransparency = 1
-				hardwareLabel.TextColor3 = Color3.new(1, 1, 1)
-				hardwareLabel.TextSize = 30
-				hardwareLabel.Font = Enum.Font.SourceSansBold
-				hardwareLabel.Parent = frame
+				local MyLabel = Instance.new("TextLabel")
+				MyLabel.Text = "PV+ Changelog"
+				MyLabel.Size = UDim2.new(1, 0, 0, 30)
+				MyLabel.Position = UDim2.new(0, 0, 0, 0)
+				MyLabel.BackgroundTransparency = 1
+				MyLabel.TextColor3 = Color3.new(1, 1, 1)
+				MyLabel.TextSize = 30
+				MyLabel.Font = Enum.Font.SourceSansBold
+				MyLabel.Parent = frame
 	
 				local changelogLabel = Instance.new("TextLabel")
 				changelogLabel.Text = "Changelog"
@@ -45,7 +45,7 @@
 				changelogLabel.Parent = frame
 	
 				local loadchangeloglistlabel = Instance.new("TextLabel")
-				loadchangeloglistlabel.Text = "+ Removed Command 😭 (cuz my bad)\n+ Added DisablerTweenDash And TweenDash 🥳\n+ Added ChangeLog 🥳\n+ Fixed Module Not Loaded 🥳\n+ Cape Change 🥳\n+ Added SolarSystem (Skid Ayto) 😎"
+				loadchangeloglistlabel.Text = "+ Removed Command 😭 (cuz my bad maybe i will fixed it)\n+ Added DisablerTweenDash And TweenDash 🥳\n+ Added ChangeLog 🥳\n+ Fixed Module Not Loaded 🥳\n+ Cape Change 🥳\n+ Added SolarSystem (Skid Ayto) 😎"
 				loadchangeloglistlabel.Size = UDim2.new(0.9, 0, 0.5, 0)
 				loadchangeloglistlabel.Position = UDim2.new(0.05, 0, 0.25, 0)
 				loadchangeloglistlabel.BackgroundTransparency = 1
@@ -56,7 +56,7 @@
 				loadchangeloglistlabel.Parent = frame
 	
 				local loadupdatelabel = Instance.new("TextLabel")
-				loadupdatelabel.Text = "Last Updated 10/20/23"
+				loadupdatelabel.Text = "Last Updated 10/21/23"
 				loadupdatelabel.Size = UDim2.new(1, 0, 0, 30)
 				loadupdatelabel.Position = UDim2.new(0, 0, 0, 385)
 				loadupdatelabel.BackgroundTransparency = 1
@@ -159,7 +159,7 @@
 				infoLabel.Parent = infoGui
 	
 				local textinfoLabel = Instance.new("TextLabel")
-				textinfoLabel.Text = "+ Added Mode To InfiniteJump 🥳\n+ Added Extra Speed if your holding scythe 🤯"
+				textinfoLabel.Text = "+ Added Mode To InfiniteJump 🥳\n+ Added Extra Speed if your holding scythe 🤯\n+ More CustomModule In Next Update!!"
 				textinfoLabel.Size = UDim2.new(1, 0, 1, 0)
 				textinfoLabel.Position = UDim2.new(0, 0.5, 0, -1)
 				textinfoLabel.BackgroundColor3 = Color3.new(0, 0, 0)
